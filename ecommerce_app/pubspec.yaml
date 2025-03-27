@@ -1,0 +1,29 @@
+name: ecommerce_app
+description: A complete e-commerce application for web and android
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.9.0
+  cloud_firestore: ^4.8.0
+  provider: ^6.0.5
+  flutter_stripe: ^8.0.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
